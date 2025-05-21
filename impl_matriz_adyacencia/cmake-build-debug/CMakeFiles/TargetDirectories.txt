@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/impl_matriz_adyacencia/cmake-build-debug/CMakeFiles/impl_matriz_adyacencia.dir
+/home/administrador/CLionProjects/impl_matriz_adyacencia/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/impl_matriz_adyacencia/cmake-build-debug/CMakeFiles/rebuild_cache.dir

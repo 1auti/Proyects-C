@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/grafo_ponderado/cmake-build-debug/CMakeFiles/grafo_ponderado.dir
+/home/administrador/CLionProjects/grafo_ponderado/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/grafo_ponderado/cmake-build-debug/CMakeFiles/rebuild_cache.dir

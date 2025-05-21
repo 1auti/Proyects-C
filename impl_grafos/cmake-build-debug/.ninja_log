@@ -1,0 +1,7 @@
+# ninja log v5
+1	61	1747849702178592579	CMakeFiles/impl_grafos.dir/main.c.o	9c2f422cd8a1ea14
+62	129	1747849702244590749	impl_grafos	5b7174a117f8649e
+1	90	1747849806141783401	CMakeFiles/impl_grafos.dir/matriz_adyacencia.c.o	bf6a6b1d1f10717a
+2	105	1747849806156783006	CMakeFiles/impl_grafos.dir/lista_adyacencia.c.o	f973d44e3b26fa38
+1	22	1747849837232970031	CMakeFiles/impl_grafos.dir/lista_adyacencia.c.o	f973d44e3b26fa38
+22	72	1747849837282968732	impl_grafos	c465d9fc08e88c74

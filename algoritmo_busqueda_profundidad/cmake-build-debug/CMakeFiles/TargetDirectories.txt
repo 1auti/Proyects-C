@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/algoritmo_busqueda_profundidad/cmake-build-debug/CMakeFiles/algoritmo_busqueda_profundidad.dir
+/home/administrador/CLionProjects/algoritmo_busqueda_profundidad/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/algoritmo_busqueda_profundidad/cmake-build-debug/CMakeFiles/rebuild_cache.dir
