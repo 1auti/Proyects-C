@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/impl_grafos/cmake-build-debug/CMakeFiles/impl_grafos.dir
+/home/administrador/CLionProjects/impl_grafos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/impl_grafos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
