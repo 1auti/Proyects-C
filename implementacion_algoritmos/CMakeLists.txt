@@ -30,4 +30,9 @@ add_executable(implementacion_algoritmos main.c
         tests/test_bellman_ford.c
         tests/test_kruskal.c
         tests/test_traversals.c
-        tests/test_cycles.c)
+        tests/test_cycles.c
+        navegacion_gps/gps_system.c
+        navegacion_gps/gps_system.h
+        algoritmos/common_types.h
+        algoritmos/cycle_detection.h
+        navegacion_gps/main_gps.c)

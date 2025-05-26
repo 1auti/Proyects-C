@@ -1,13 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
-// Prototipos de funciones
-bool hasCycleUndirected(int** graph, int numVertices);
-bool hasCycleDirected(int** graph, int numVertices);
-bool hasCycleUndirectedDFS(int** graph, int numVertices, int v, bool* visited, int parent);
-bool hasCycleDFS(int** graph, int numVertices, int v, bool* visited, bool* recStack);
-void printCycleDetectionResult(bool hasCycle, const char* graphType);
+#include "cycle_detection.h"
 
 // Detección de ciclos en grafo no dirigido usando DFS
 bool hasCycleUndirectedDFS(int** graph, int numVertices, int v, bool* visited, int parent) {

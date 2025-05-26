@@ -10,15 +10,10 @@
 #include <stdbool.h>
 #include <limits.h>
 
-#define INF INT_MAX
+#include "bellman_ford.h"
+#include "common_types.h"
 
-// Estructura para resultado de camino
-typedef struct PathResult {
-    int * path;
-    int pathLength;
-    int totalWeigth;
-    bool hasPath;
-}PathResult;
+#define INF INT_MAX
 
 // Prototipos de funciones
 PathResult* dijkstra(int** graph, int numVertices, int start, int end);

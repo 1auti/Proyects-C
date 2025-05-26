@@ -1,0 +1,24 @@
+# ninja log v5
+328	536	1748281149520106218	CMakeFiles/implementacion_algoritmos.dir/utils/visualization.c.o	868a520040e656ca
+1	116	1748281149103095219	CMakeFiles/implementacion_algoritmos.dir/algoritmos/dijkstra.c.o	9271db8f032d06c2
+333	459	1748281149448104318	CMakeFiles/implementacion_algoritmos.dir/utils/benchmarks.c.o	3ea90554afcc48e7
+3	138	1748281149125095799	CMakeFiles/implementacion_algoritmos.dir/algoritmos/bellman_ford.c.o	dea977223bc9cf7f
+4	90	1748281149079094586	CMakeFiles/implementacion_algoritmos.dir/algoritmos/kruskal.c.o	47ba48c2c1d4e942
+35	118	1748281067081641872	CMakeFiles/implementacion_algoritmos.dir/graph/matrix_adyacente.c.o	a6521428cb88ad6c
+494	522	1748281149511105980	CMakeFiles/implementacion_algoritmos.dir/tests/test_traversals.c.o	379f210cd3457416
+116	250	1748281149238098780	CMakeFiles/implementacion_algoritmos.dir/algoritmos/cycle_detection.c.o	c233506c04218b50
+250	434	1748281149420103580	CMakeFiles/implementacion_algoritmos.dir/utils/file_io.c.o	4129b61c139fb266
+2	176	1748281067135643684	CMakeFiles/implementacion_algoritmos.dir/graph/graph.c.o	91b18a6ca201d2f4
+434	481	1748281149469104873	CMakeFiles/implementacion_algoritmos.dir/tests/test_dijkstra.c.o	6bffb0bf8e3ed6a3
+228	333	1748281149322100995	CMakeFiles/implementacion_algoritmos.dir/estructura_datos/hash_map.c.o	3403d84e04402515
+0	35	1748281066998639085	CMakeFiles/implementacion_algoritmos.dir/main.c.o	510cb92e5040e04
+139	228	1748281149217098226	CMakeFiles/implementacion_algoritmos.dir/estructura_datos/union_find.c.o	7dee47356afb65b1
+91	200	1748281149186097408	CMakeFiles/implementacion_algoritmos.dir/algoritmos/dfs_bfs.c.o	da5eaab81bd3583b
+523	552	1748281149539106719	CMakeFiles/implementacion_algoritmos.dir/tests/test_cycles.c.o	c4546b4ece932ba7
+2	180	1748281067143643953	CMakeFiles/implementacion_algoritmos.dir/graph/lista_adyacente.c.o	683e416a10a2eef0
+2	236	1748282129153462104	CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/gps_system.c.o	415554fb5bdf5e76
+459	493	1748281149480105163	CMakeFiles/implementacion_algoritmos.dir/tests/test_bellman_ford.c.o	a34964345714cd58
+200	328	1748281149316100837	CMakeFiles/implementacion_algoritmos.dir/estructura_datos/priority_queue.h.c.o	e6c21b0202673190
+481	527	1748281149513106033	CMakeFiles/implementacion_algoritmos.dir/tests/test_kruskal.c.o	dd7545e8a744efa5
+1	178	1748283563485854220	CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/main_gps.c.o	a6a362d98e94c269
+1	250	1748283563557850025	CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/gps_system.c.o	415554fb5bdf5e76

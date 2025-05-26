@@ -22,7 +22,7 @@ PathResult * dijkstra(int ** graph, int numVertices, int inicio, int fin) {
     PathResult * result = (PathResult*)malloc(sizeof(PathResult));
     result->path = NULL;
     result->pathLength = 0 ;
-    result->totalWeigth = INF;
+    result->totalWeight = INF;
     result->hasPath = false;
 
     // Si entra en la validacion termina el codigo
@@ -66,7 +66,7 @@ PathResult * dijkstra(int ** graph, int numVertices, int inicio, int fin) {
     // Construir el camino si existe
     if (dist[fin] != INF) {
         result->hasPath = true;
-        result->totalWeigth = dist[fin];
+        result->totalWeight = dist[fin];
 
         // Contar la longitud del camino
         int temp = fin;
@@ -133,7 +133,7 @@ void printDijkstraResult(PathResult* result, int start, int end) {
         return;
     }
 
-    printf("Distancia mínima: %d\n", result->totalWeigth);
+    printf("Distancia mínima: %d\n", result->totalWeight);
     printf("Camino: ");
     for (int i = 0; i < result->pathLength; i++) {
         printf("%d", result->path[i]);

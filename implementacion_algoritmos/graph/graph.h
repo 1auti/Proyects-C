@@ -33,6 +33,8 @@ typedef struct Graph {
 
 // Funciones de crear y destuir
 Graph * crearGraph(int vertices, bool isDirected);
+AdjNode* crearAdjNode(int vertice, int peso);
+
 void destruirGraph(Graph * graph);
 
 // Funciones para lista adyacencias
