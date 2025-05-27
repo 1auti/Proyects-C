@@ -19,8 +19,10 @@
 #include "../algoritmos/dfs_bfs.h"
 #include "../estructura_datos/hash_map.h"
 #include "../estructura_datos/priority_queue.h"
-#include "../utils/file_io.c"
-#include "../utils/visualization.c"
+#include "../utils/file_io.h"
+#include "../utils/visualization.h"
+#include "../algoritmos/cycle_detection.h"
+#include "../graph/graph.h"
 
 
 #define MAX_CITIES 1000

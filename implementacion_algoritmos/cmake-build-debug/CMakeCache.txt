@@ -189,6 +189,9 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Dependencies for the target
+graph_algorithms_LIB_DEPENDS:STATIC=general;m;
+
 //Value Computed by CMake
 implementacion_algoritmos_BINARY_DIR:STATIC=/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug
 

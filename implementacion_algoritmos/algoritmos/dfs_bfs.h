@@ -26,7 +26,7 @@ void bfsTraversal(int** graph, int numVertices, int startVertex, bool* visited, 
 // Funciones de conectividad
 bool isConnected(int** graph, int numVertices, int vertex1, int vertex2);
 int* getConnectedComponents(int** graph, int numVertices, int* numComponents);
-bool isGraphConnected(int** graph, int numVertices);
+bool isGraphFullyConnected(int** graph, int numVertices);
 
 // Funciones de utilidad
 void printSearchResult(SearchResult* result, const char* algorithm, int startVertex);

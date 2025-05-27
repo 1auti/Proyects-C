@@ -5,9 +5,6 @@
 #ifndef COMMON_TYPES_H
 #define COMMON_TYPES_H
 
-#ifndef COMMON_TYPES_H
-#define COMMON_TYPES_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -23,7 +20,8 @@ typedef struct {
     bool hasPath;
 } PathResult;
 
-// Otras estructuras compartidas que puedas necesitar
+
+// Estructura para representar una arista
 typedef struct {
     int src, dest;
     int weight;
@@ -32,6 +30,4 @@ typedef struct {
 // Funciones comunes
 void freePathResult(PathResult* result);
 
-
-#endif
 #endif //COMMON_TYPES_H

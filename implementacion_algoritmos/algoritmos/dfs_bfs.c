@@ -175,7 +175,7 @@ int* getConnectedComponents(int** graph, int numVertices, int* numComponents) {
 }
 
 // Verificar si el grafo es conexo
-bool isGraphConnected(int** graph, int numVertices) {
+bool isGraphFullyConnected(int** graph, int numVertices) {
     if (numVertices <= 1) return true;
     
     SearchResult* result = dfs(graph, numVertices, 0);

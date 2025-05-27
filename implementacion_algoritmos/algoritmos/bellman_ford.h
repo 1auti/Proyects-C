@@ -5,21 +5,14 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <limits.h>
+#include "common_types.h"
 
-#define INF INT_MAX
 
-// Estructura para resultado de camino (reutilizamos la de dijkstra)
-typedef struct {
-    int* path;
-    int pathLength;
-    int totalWeight;
-    bool hasPath;
-} PathResult;
 
 // Prototipos de funciones
-PathResult* bellmanFord(int** graph, int numVertices, int start, int end);
+PathResult * bellmanFord(int** graph, int numVertices, int start, int end);
 bool* bellmanFordNegativeCycles(int** graph, int numVertices, int start);
 bool bellmanFordDetectNegativeCycle(int** graph, int numVertices);
-void printBellmanFordResult(PathResult* result, int start, int end);
+void printBellmanFordResult(PathResult * result, int start, int end);
 
 #endif

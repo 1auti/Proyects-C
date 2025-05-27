@@ -41,161 +41,235 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target implementacion_algoritmos
+# Object build statements for STATIC_LIBRARY target graph_algorithms
 
 
 #############################################
-# Order-only phony target for implementacion_algoritmos
+# Order-only phony target for graph_algorithms
 
-build cmake_object_order_depends_target_implementacion_algoritmos: phony || CMakeFiles/implementacion_algoritmos.dir
+build cmake_object_order_depends_target_graph_algorithms: phony || CMakeFiles/graph_algorithms.dir
 
-build CMakeFiles/implementacion_algoritmos.dir/main.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/main.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/main.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir
+build CMakeFiles/graph_algorithms.dir/graph/graph.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph/graph.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/graph/graph.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/graph
 
-build CMakeFiles/implementacion_algoritmos.dir/graph/graph.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph/graph.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/graph/graph.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/graph
+build CMakeFiles/graph_algorithms.dir/graph/lista_adyacente.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph/lista_adyacente.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/graph/lista_adyacente.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/graph
 
-build CMakeFiles/implementacion_algoritmos.dir/graph/lista_adyacente.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph/lista_adyacente.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/graph/lista_adyacente.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/graph
+build CMakeFiles/graph_algorithms.dir/graph/matrix_adyacente.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph/matrix_adyacente.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/graph/matrix_adyacente.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/graph
 
-build CMakeFiles/implementacion_algoritmos.dir/graph/matrix_adyacente.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph/matrix_adyacente.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/graph/matrix_adyacente.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/graph
+build CMakeFiles/graph_algorithms.dir/algoritmos/dijkstra.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/dijkstra.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/algoritmos/dijkstra.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/algoritmos
 
-build CMakeFiles/implementacion_algoritmos.dir/algoritmos/dijkstra.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/dijkstra.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/algoritmos/dijkstra.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/algoritmos
+build CMakeFiles/graph_algorithms.dir/algoritmos/bellman_ford.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/bellman_ford.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/algoritmos/bellman_ford.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/algoritmos
 
-build CMakeFiles/implementacion_algoritmos.dir/algoritmos/bellman_ford.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/bellman_ford.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/algoritmos/bellman_ford.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/algoritmos
+build CMakeFiles/graph_algorithms.dir/algoritmos/kruskal.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/kruskal.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/algoritmos/kruskal.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/algoritmos
 
-build CMakeFiles/implementacion_algoritmos.dir/algoritmos/kruskal.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/kruskal.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/algoritmos/kruskal.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/algoritmos
+build CMakeFiles/graph_algorithms.dir/algoritmos/dfs_bfs.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/dfs_bfs.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/algoritmos/dfs_bfs.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/algoritmos
 
-build CMakeFiles/implementacion_algoritmos.dir/algoritmos/dfs_bfs.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/dfs_bfs.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/algoritmos/dfs_bfs.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/algoritmos
+build CMakeFiles/graph_algorithms.dir/algoritmos/cycle_detection.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/cycle_detection.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/algoritmos/cycle_detection.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/algoritmos
 
-build CMakeFiles/implementacion_algoritmos.dir/algoritmos/cycle_detection.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos/cycle_detection.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/algoritmos/cycle_detection.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/algoritmos
+build CMakeFiles/graph_algorithms.dir/estructura_datos/union_find.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos/union_find.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/estructura_datos/union_find.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/estructura_datos
 
-build CMakeFiles/implementacion_algoritmos.dir/estructura_datos/union_find.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos/union_find.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/estructura_datos/union_find.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/estructura_datos
+build CMakeFiles/graph_algorithms.dir/estructura_datos/priority_queue.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos/priority_queue.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/estructura_datos/priority_queue.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/estructura_datos
 
-build CMakeFiles/implementacion_algoritmos.dir/estructura_datos/priority_queue.h.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos/priority_queue.h.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/estructura_datos/priority_queue.h.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/estructura_datos
+build CMakeFiles/graph_algorithms.dir/estructura_datos/hash_map.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos/hash_map.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/estructura_datos/hash_map.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/estructura_datos
 
-build CMakeFiles/implementacion_algoritmos.dir/estructura_datos/hash_map.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos/hash_map.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/estructura_datos/hash_map.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/estructura_datos
+build CMakeFiles/graph_algorithms.dir/utils/file_io.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils/file_io.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/utils/file_io.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/utils
 
-build CMakeFiles/implementacion_algoritmos.dir/utils/file_io.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils/file_io.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/utils/file_io.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/utils
+build CMakeFiles/graph_algorithms.dir/utils/visualization.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils/visualization.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/utils/visualization.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/utils
 
-build CMakeFiles/implementacion_algoritmos.dir/utils/visualization.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils/visualization.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/utils/visualization.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/utils
-
-build CMakeFiles/implementacion_algoritmos.dir/utils/benchmarks.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils/benchmarks.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/utils/benchmarks.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/utils
-
-build CMakeFiles/implementacion_algoritmos.dir/tests/test_dijkstra.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_dijkstra.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/tests/test_dijkstra.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/tests
-
-build CMakeFiles/implementacion_algoritmos.dir/tests/test_bellman_ford.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_bellman_ford.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/tests/test_bellman_ford.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/tests
-
-build CMakeFiles/implementacion_algoritmos.dir/tests/test_kruskal.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_kruskal.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/tests/test_kruskal.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/tests
-
-build CMakeFiles/implementacion_algoritmos.dir/tests/test_traversals.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_traversals.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/tests/test_traversals.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/tests
-
-build CMakeFiles/implementacion_algoritmos.dir/tests/test_cycles.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_cycles.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/tests/test_cycles.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/tests
-
-build CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/gps_system.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps/gps_system.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/gps_system.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/navegacion_gps
-
-build CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/main_gps.c.o: C_COMPILER__implementacion_algoritmos_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps/main_gps.c || cmake_object_order_depends_target_implementacion_algoritmos
-  DEP_FILE = CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/main_gps.c.o.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
-  OBJECT_FILE_DIR = CMakeFiles/implementacion_algoritmos.dir/navegacion_gps
+build CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils/benchmarks.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/utils
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target implementacion_algoritmos
+# Link build statements for STATIC_LIBRARY target graph_algorithms
 
 
 #############################################
-# Link the executable implementacion_algoritmos
+# Link the static library libgraph_algorithms.a
 
-build implementacion_algoritmos: C_EXECUTABLE_LINKER__implementacion_algoritmos_Debug CMakeFiles/implementacion_algoritmos.dir/main.c.o CMakeFiles/implementacion_algoritmos.dir/graph/graph.c.o CMakeFiles/implementacion_algoritmos.dir/graph/lista_adyacente.c.o CMakeFiles/implementacion_algoritmos.dir/graph/matrix_adyacente.c.o CMakeFiles/implementacion_algoritmos.dir/algoritmos/dijkstra.c.o CMakeFiles/implementacion_algoritmos.dir/algoritmos/bellman_ford.c.o CMakeFiles/implementacion_algoritmos.dir/algoritmos/kruskal.c.o CMakeFiles/implementacion_algoritmos.dir/algoritmos/dfs_bfs.c.o CMakeFiles/implementacion_algoritmos.dir/algoritmos/cycle_detection.c.o CMakeFiles/implementacion_algoritmos.dir/estructura_datos/union_find.c.o CMakeFiles/implementacion_algoritmos.dir/estructura_datos/priority_queue.h.c.o CMakeFiles/implementacion_algoritmos.dir/estructura_datos/hash_map.c.o CMakeFiles/implementacion_algoritmos.dir/utils/file_io.c.o CMakeFiles/implementacion_algoritmos.dir/utils/visualization.c.o CMakeFiles/implementacion_algoritmos.dir/utils/benchmarks.c.o CMakeFiles/implementacion_algoritmos.dir/tests/test_dijkstra.c.o CMakeFiles/implementacion_algoritmos.dir/tests/test_bellman_ford.c.o CMakeFiles/implementacion_algoritmos.dir/tests/test_kruskal.c.o CMakeFiles/implementacion_algoritmos.dir/tests/test_traversals.c.o CMakeFiles/implementacion_algoritmos.dir/tests/test_cycles.c.o CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/gps_system.c.o CMakeFiles/implementacion_algoritmos.dir/navegacion_gps/main_gps.c.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/implementacion_algoritmos.dir
+build libgraph_algorithms.a: C_STATIC_LIBRARY_LINKER__graph_algorithms_Debug CMakeFiles/graph_algorithms.dir/graph/graph.c.o CMakeFiles/graph_algorithms.dir/graph/lista_adyacente.c.o CMakeFiles/graph_algorithms.dir/graph/matrix_adyacente.c.o CMakeFiles/graph_algorithms.dir/algoritmos/dijkstra.c.o CMakeFiles/graph_algorithms.dir/algoritmos/bellman_ford.c.o CMakeFiles/graph_algorithms.dir/algoritmos/kruskal.c.o CMakeFiles/graph_algorithms.dir/algoritmos/dfs_bfs.c.o CMakeFiles/graph_algorithms.dir/algoritmos/cycle_detection.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/union_find.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/priority_queue.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/hash_map.c.o CMakeFiles/graph_algorithms.dir/utils/file_io.c.o CMakeFiles/graph_algorithms.dir/utils/visualization.c.o CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = implementacion_algoritmos
-  TARGET_PDB = implementacion_algoritmos.dbg
+  TARGET_FILE = libgraph_algorithms.a
+  TARGET_PDB = graph_algorithms.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main_program
+
+
+#############################################
+# Order-only phony target for main_program
+
+build cmake_object_order_depends_target_main_program: phony || cmake_object_order_depends_target_graph_algorithms
+
+build CMakeFiles/main_program.dir/main.c.o: C_COMPILER__main_program_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/main.c || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles/main_program.dir/main.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_program.dir
+
+build CMakeFiles/main_program.dir/tests/test_dijkstra.c.o: C_COMPILER__main_program_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_dijkstra.c || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles/main_program.dir/tests/test_dijkstra.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_program.dir/tests
+
+build CMakeFiles/main_program.dir/tests/test_bellman_ford.c.o: C_COMPILER__main_program_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_bellman_ford.c || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles/main_program.dir/tests/test_bellman_ford.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_program.dir/tests
+
+build CMakeFiles/main_program.dir/tests/test_kruskal.c.o: C_COMPILER__main_program_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_kruskal.c || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles/main_program.dir/tests/test_kruskal.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_program.dir/tests
+
+build CMakeFiles/main_program.dir/tests/test_traversals.c.o: C_COMPILER__main_program_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_traversals.c || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles/main_program.dir/tests/test_traversals.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_program.dir/tests
+
+build CMakeFiles/main_program.dir/tests/test_cycles.c.o: C_COMPILER__main_program_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests/test_cycles.c || cmake_object_order_depends_target_main_program
+  DEP_FILE = CMakeFiles/main_program.dir/tests/test_cycles.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_program.dir/tests
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_program
+
+
+#############################################
+# Link the executable main_program
+
+build main_program: C_EXECUTABLE_LINKER__main_program_Debug CMakeFiles/main_program.dir/main.c.o CMakeFiles/main_program.dir/tests/test_dijkstra.c.o CMakeFiles/main_program.dir/tests/test_bellman_ford.c.o CMakeFiles/main_program.dir/tests/test_kruskal.c.o CMakeFiles/main_program.dir/tests/test_traversals.c.o CMakeFiles/main_program.dir/tests/test_cycles.c.o | libgraph_algorithms.a || libgraph_algorithms.a
+  FLAGS = -g
+  LINK_LIBRARIES = libgraph_algorithms.a  -lm
+  OBJECT_DIR = CMakeFiles/main_program.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_program
+  TARGET_PDB = main_program.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gps_navigator
+
+
+#############################################
+# Order-only phony target for gps_navigator
+
+build cmake_object_order_depends_target_gps_navigator: phony || cmake_object_order_depends_target_graph_algorithms
+
+build CMakeFiles/gps_navigator.dir/navegacion_gps/main_gps.c.o: C_COMPILER__gps_navigator_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps/main_gps.c || cmake_object_order_depends_target_gps_navigator
+  DEP_FILE = CMakeFiles/gps_navigator.dir/navegacion_gps/main_gps.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/gps_navigator.dir
+  OBJECT_FILE_DIR = CMakeFiles/gps_navigator.dir/navegacion_gps
+
+build CMakeFiles/gps_navigator.dir/navegacion_gps/gps_system.c.o: C_COMPILER__gps_navigator_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps/gps_system.c || cmake_object_order_depends_target_gps_navigator
+  DEP_FILE = CMakeFiles/gps_navigator.dir/navegacion_gps/gps_system.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -g -Wall -Wextra
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/gps_navigator.dir
+  OBJECT_FILE_DIR = CMakeFiles/gps_navigator.dir/navegacion_gps
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gps_navigator
+
+
+#############################################
+# Link the executable gps_navigator
+
+build gps_navigator: C_EXECUTABLE_LINKER__gps_navigator_Debug CMakeFiles/gps_navigator.dir/navegacion_gps/main_gps.c.o CMakeFiles/gps_navigator.dir/navegacion_gps/gps_system.c.o | libgraph_algorithms.a || libgraph_algorithms.a
+  FLAGS = -g
+  LINK_LIBRARIES = libgraph_algorithms.a  -lm
+  OBJECT_DIR = CMakeFiles/gps_navigator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = gps_navigator
+  TARGET_PDB = gps_navigator.dbg
 
 
 #############################################
@@ -223,6 +297,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build graph_algorithms: phony libgraph_algorithms.a
+
 # =============================================================================
 # Folder targets.
 
@@ -231,7 +307,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug
 
-build all: phony implementacion_algoritmos
+build all: phony libgraph_algorithms.a main_program gps_navigator
 
 # =============================================================================
 # Built-in targets

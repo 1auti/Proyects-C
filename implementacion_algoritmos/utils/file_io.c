@@ -1,24 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
-
-// Estructuras para manejo de archivos
-typedef struct {
-    int** matrix;
-    int numVertices;
-    bool isDirected;
-    char** vertexNames;
-} GraphData;
-
-// Prototipos
-GraphData* loadGraphFromFile(const char* filename);
-bool saveGraphToFile(const char* filename, int** graph, int numVertices, bool isDirected, char** vertexNames);
-bool loadAdjacencyMatrix(const char* filename, int*** graph, int* numVertices);
-bool saveAdjacencyMatrix(const char* filename, int** graph, int numVertices);
-bool loadEdgeList(const char* filename, int*** graph, int* numVertices);
-bool saveEdgeList(const char* filename, int** graph, int numVertices);
-void freeGraphData(GraphData* data);
+#include "../utils/file_io.h"
 
 // Cargar grafo desde archivo (formato automático)
 GraphData* loadGraphFromFile(const char* filename) {

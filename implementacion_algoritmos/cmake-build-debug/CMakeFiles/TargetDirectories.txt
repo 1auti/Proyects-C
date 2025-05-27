@@ -1,3 +1,5 @@
-/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/CMakeFiles/implementacion_algoritmos.dir
+/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/CMakeFiles/graph_algorithms.dir
+/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/CMakeFiles/main_program.dir
+/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/CMakeFiles/gps_navigator.dir
 /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

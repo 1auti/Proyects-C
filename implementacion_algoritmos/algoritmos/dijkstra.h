@@ -9,8 +9,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <limits.h>
-
-#include "bellman_ford.h"
 #include "common_types.h"
 
 #define INF INT_MAX

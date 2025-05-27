@@ -1,12 +1,4 @@
 #include "gps_system.h"
-#include "../algoritmos/bellman_ford.h"
-#include "../algoritmos/dfs_bfs.h"
-#include "../algoritmos/dijkstra.h"
-#include "../estructura_datos/hash_map.h"
-#include "../estructura_datos/priority_queue.h"
-#include "../algoritmos/cycle_detection.h"
-
-#include "../graph/graph.h"
 
 // Crear sistema de navegación
 NavigationSystem* createNavigationSystem(int maxCities) {
@@ -582,7 +574,7 @@ void generateNetworkStatistics(NavigationSystem* gps) {
     }
 
     // Analizar conectividad
-    bool isConnected = isGraphConnected(gps->network->adjacencyMatrix, gps->network->numCities);
+    bool isConnected = isGraphFullyConnected(gps->network->adjacencyMatrix, gps->network->numCities);
     printf("🔗 Red conectada: %s\n", isConnected ? "SÍ" : "NO");
 
     // Componentes conexos

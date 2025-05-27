@@ -5,11 +5,7 @@
 #include <stdbool.h>
 #include <sys/time.h>
 
-// Incluir los algoritmos a medir
-// #include "../algoritmos/dijkstra.h"
-// #include "../algoritmos/bellman_ford.h"
-// #include "../algoritmos/kruskal.h"
-// #include "../algoritmos/dfs_bfs.h"
+
 
 typedef struct {
     char algorithmName[50];
