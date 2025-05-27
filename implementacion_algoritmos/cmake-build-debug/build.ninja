@@ -147,6 +147,20 @@ build CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o: C_COMPILER__graph_al
   OBJECT_DIR = CMakeFiles/graph_algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/utils
 
+build CMakeFiles/graph_algorithms.dir/social_network/social_network.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/social_network/social_network.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/social_network/social_network.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/social_network
+
+build CMakeFiles/graph_algorithms.dir/social_network/social_network_examples.c.o: C_COMPILER__graph_algorithms_unscanned_Debug /home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/social_network/social_network_examples.c || cmake_object_order_depends_target_graph_algorithms
+  DEP_FILE = CMakeFiles/graph_algorithms.dir/social_network/social_network_examples.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/graph -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/algoritmos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/estructura_datos -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/utils -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/navegacion_gps -I/home/administrador/CLionProjects/Proyects-C/implementacion_algoritmos/tests
+  OBJECT_DIR = CMakeFiles/graph_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/graph_algorithms.dir/social_network
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target graph_algorithms
@@ -155,7 +169,7 @@ build CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o: C_COMPILER__graph_al
 #############################################
 # Link the static library libgraph_algorithms.a
 
-build libgraph_algorithms.a: C_STATIC_LIBRARY_LINKER__graph_algorithms_Debug CMakeFiles/graph_algorithms.dir/graph/graph.c.o CMakeFiles/graph_algorithms.dir/graph/lista_adyacente.c.o CMakeFiles/graph_algorithms.dir/graph/matrix_adyacente.c.o CMakeFiles/graph_algorithms.dir/algoritmos/dijkstra.c.o CMakeFiles/graph_algorithms.dir/algoritmos/bellman_ford.c.o CMakeFiles/graph_algorithms.dir/algoritmos/kruskal.c.o CMakeFiles/graph_algorithms.dir/algoritmos/dfs_bfs.c.o CMakeFiles/graph_algorithms.dir/algoritmos/cycle_detection.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/union_find.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/priority_queue.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/hash_map.c.o CMakeFiles/graph_algorithms.dir/utils/file_io.c.o CMakeFiles/graph_algorithms.dir/utils/visualization.c.o CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o
+build libgraph_algorithms.a: C_STATIC_LIBRARY_LINKER__graph_algorithms_Debug CMakeFiles/graph_algorithms.dir/graph/graph.c.o CMakeFiles/graph_algorithms.dir/graph/lista_adyacente.c.o CMakeFiles/graph_algorithms.dir/graph/matrix_adyacente.c.o CMakeFiles/graph_algorithms.dir/algoritmos/dijkstra.c.o CMakeFiles/graph_algorithms.dir/algoritmos/bellman_ford.c.o CMakeFiles/graph_algorithms.dir/algoritmos/kruskal.c.o CMakeFiles/graph_algorithms.dir/algoritmos/dfs_bfs.c.o CMakeFiles/graph_algorithms.dir/algoritmos/cycle_detection.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/union_find.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/priority_queue.c.o CMakeFiles/graph_algorithms.dir/estructura_datos/hash_map.c.o CMakeFiles/graph_algorithms.dir/utils/file_io.c.o CMakeFiles/graph_algorithms.dir/utils/visualization.c.o CMakeFiles/graph_algorithms.dir/utils/benchmarks.c.o CMakeFiles/graph_algorithms.dir/social_network/social_network.c.o CMakeFiles/graph_algorithms.dir/social_network/social_network_examples.c.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/graph_algorithms.dir
   POST_BUILD = :

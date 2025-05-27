@@ -42,6 +42,9 @@ set(UTIL_SOURCES
     utils/benchmarks.c
         utils/file_io.h
         utils/visualization.h
+        social_network/social_network.h
+        social_network/social_network.c
+        social_network/social_network_examples.c
 )
 
 set(TEST_SOURCES

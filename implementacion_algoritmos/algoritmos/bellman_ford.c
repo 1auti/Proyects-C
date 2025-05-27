@@ -27,8 +27,13 @@ PathResult* bellmanFord(int** graph, int numVertices, int start, int end) {
         bool updated = false;
         for (int u = 0; u < numVertices; u++) {
             for (int v = 0; v < numVertices; v++) {
-                if (graph[u][v] != 0 && dist[u] != INF && 
+                /*Lo que hace 1ra vef es ver si hay una conexion entre el vertice u y v en esa posicion osea una arista
+                 * Lo que hace en la 2da vef es ver el vertice u fue alcanzado por el nodo inicial
+                 * Lo que hace la 3ra vef si dist[u] + graph[u][v] si es menor a dist[v] (Si lo es significa que es mas corto)
+                 */
+                if (graph[u][v] != 0 && dist[u] != INF &&
                     dist[u] + graph[u][v] < dist[v]) {
+
                     dist[v] = dist[u] + graph[u][v];
                     parent[v] = u;
                     updated = true;
@@ -40,6 +45,7 @@ PathResult* bellmanFord(int** graph, int numVertices, int start, int end) {
     }
     
     // Verificar ciclos negativos
+    //Si después de V - 1 iteraciones aún puedes relajar una arista, significa que existe un ciclo con peso negativo
     bool hasNegativeCycle = false;
     for (int u = 0; u < numVertices; u++) {
         for (int v = 0; v < numVertices; v++) {
@@ -55,10 +61,11 @@ PathResult* bellmanFord(int** graph, int numVertices, int start, int end) {
     
     // Construir el camino si existe y no hay ciclos negativos
     if (!hasNegativeCycle && dist[end] != INF) {
-        result->hasPath = true;
-        result->totalWeight = dist[end];
+        result->hasPath = true; //marca que si hay una ruta
+        result->totalWeight = dist[end]; // total del camino mas corto
         
         // Contar longitud del camino
+        // Recorrre desde en End al Inicio utilzdndo el parant , suma 1 a pathlen para saber cuanto hay en el camino
         int temp = end;
         int pathLen = 0;
         while (temp != -1) {
