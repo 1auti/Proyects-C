@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/ordenacion_topologica_dfs/cmake-build-debug/CMakeFiles/ordenacion_topologica_dfs.dir
+/home/administrador/CLionProjects/ordenacion_topologica_dfs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/ordenacion_topologica_dfs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

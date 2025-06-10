@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/analizador_dependencias/cmake-build-debug/CMakeFiles/analizador_dependencias.dir
+/home/administrador/CLionProjects/analizador_dependencias/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/analizador_dependencias/cmake-build-debug/CMakeFiles/rebuild_cache.dir

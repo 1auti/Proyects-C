@@ -1,4 +1,4 @@
-#include "utils/visualization.h"
+#include "../utils/visualization.h"
 
 // Crear layout de grafo
 GraphLayout* createGraphLayout(int numVertices) {

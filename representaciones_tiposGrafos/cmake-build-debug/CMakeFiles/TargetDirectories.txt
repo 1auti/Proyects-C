@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/representaciones_tiposGrafos/cmake-build-debug/CMakeFiles/representaciones_tiposGrafos.dir
+/home/administrador/CLionProjects/representaciones_tiposGrafos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/representaciones_tiposGrafos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

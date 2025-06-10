@@ -177,3 +177,49 @@ void mostrarEstadisticas(Graph* graph) {
     printf("🌐 Conectado: %s\n", isGraphConnected(graph) ? "SÍ" : "NO");
     printf("===============================\n");
 }
+
+bool addVertex(Graph* graph, int vertex) {
+    if (!graph || vertex < 0 || vertex >= graph->numVertices) {
+        return false;
+    }
+    return true; // Los vértices ya existen cuando creas el grafo
+}
+
+// Agregar en graph.c
+bool hasEdge(Graph* graph, int from, int to) {
+    if (!graph || from < 0 || to < 0 ||
+        from >= graph->numVertices || to >= graph->numVertices) {
+        return false;
+        }
+
+    // Buscar en la lista de adyacencia
+    AdjNode* current = graph->adj_list[from].raiz;
+    while (current) {
+        if (current->vertice == to) {
+            return true;
+        }
+        current = current->siguiente;
+    }
+
+    return false;
+}
+
+bool addEdgeList(Graph* graph, int src, int dest, int weight) {
+    if (!graph || src < 0 || dest < 0 ||
+        src >= graph->numVertices || dest >= graph->numVertices) {
+        return false;
+        }
+
+    // Crear nuevo nodo
+    AdjNode* newNode = crearAdjNode(dest, weight);
+    if (!newNode) return false;
+
+    // Agregar al inicio de la lista
+    newNode->siguiente = graph->adj_list[src].raiz;
+    graph->adj_list[src].raiz = newNode;
+
+    // También actualizar matriz
+    graph->adjMatrix[src][dest] = weight;
+
+    return true;
+}

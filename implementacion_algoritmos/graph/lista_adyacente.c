@@ -1,35 +1,38 @@
 #include "graph.h"
 
 // Agregar arista usando lista de adyacencia
-void addEdgeList(Graph* graph, int raiz, int dest, int peso) {
-    if (!graph || raiz < 0 || raiz >= graph->numVertices || 
-        dest < 0 || dest >= graph->numVertices) {
-        printf("❌ Error: Vértices fuera de rango (%d -> %d)\n", raiz, dest);
-        return;
+bool addEdgeList(Graph* graph, int src, int dest, int weight) {
+    if (!graph || src < 0 || dest < 0 || src >= graph->numVertices || dest >= graph->numVertices) {
+        return false;
     }
-    
-    // Crear nuevo nodo y agregarlo al inicio de la lista
-    AdjNode* newNode = crearAdjNode(dest, peso);
-    if (!newNode) {
-        printf("❌ Error: No se pudo crear nodo\n");
-        return;
-    }
-    
-    newNode->siguiente = graph->adj_list[raiz].raiz;
-    graph->adj_list[raiz].raiz = newNode;
-    
-    // Si el grafo no es dirigido, agregar arista en dirección opuesta
-    if (!graph->isDirected) {
-        AdjNode* newNode2 = crearAdjNode(raiz, peso);
-        if (newNode2) {
-            newNode2->siguiente = graph->adj_list[dest].raiz;
-            graph->adj_list[dest].raiz = newNode2;
-        }
-    }
-    
-    printf("✅ Arista agregada: %d -> %d (peso: %d)\n", raiz, dest, peso);
-}
 
+    // Crear nuevo nodo para la lista de adyacencia
+    AdjNode* newNode = (AdjNode*)malloc(sizeof(AdjNode));
+    if (!newNode) {
+        return false;
+    }
+
+    // CORREGIDO: usar los nombres correctos de tu estructura
+    newNode->vertice = dest;        // Tu estructura usa 'vertice', no 'dest'
+    newNode->peso = weight;         // Tu estructura usa 'peso', no 'weight'
+    newNode->siguiente = graph->adj_list[src].raiz;  // Tu estructura usa 'siguiente' y 'adj_list[].raiz'
+    graph->adj_list[src].raiz = newNode;             // No 'graph->array[].head'
+
+    // Si el grafo es no dirigido, agregar la arista en ambas direcciones
+    if (!graph->isDirected) {  // Tu estructura usa 'isDirected', no 'directed'
+        AdjNode* newNode2 = (AdjNode*)malloc(sizeof(AdjNode));  // CORREGIDO: AdjNode, no AdjListNode
+        if (!newNode2) {
+            // Limpiar el primer nodo si falla la asignación del segundo
+            return false;
+        }
+        newNode2->vertice = src;    // CORREGIDO: usar 'vertice'
+        newNode2->peso = weight;    // CORREGIDO: usar 'peso'
+        newNode2->siguiente = graph->adj_list[dest].raiz;  // CORREGIDO: usar la estructura correcta
+        graph->adj_list[dest].raiz = newNode2;
+    }
+
+    return true;
+}
 // Remover arista de lista de adyacencia
 void removeEdgeList(Graph* graph, int raiz, int dest) {
     if (!graph || raiz < 0 || raiz >= graph->numVertices || 

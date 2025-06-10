@@ -1,0 +1,8 @@
+# ninja log v5
+3	95	1749491565763058340	CMakeFiles/analizador_dependencias.dir/src/graph.c.o	cb2b1114e3d12ef3
+4	99	1749491565764058322	CMakeFiles/analizador_dependencias.dir/src/module.c.o	4d404726cfdb6c80
+1	110	1749491565777058095	CMakeFiles/analizador_dependencias.dir/src/main.c.o	5dd88a82aacaef0f
+102	221	1749491565887056168	CMakeFiles/analizador_dependencias.dir/src/topological.c.o	432a8817955be254
+96	236	1749491565900055940	CMakeFiles/analizador_dependencias.dir/src/tarjan.c.o	19865f4e4cb834e1
+110	243	1749491565913055712	CMakeFiles/analizador_dependencias.dir/src/project.c.o	b8c534142f8087a4
+244	307	1749491565976054608	analizador_dependencias	2daf9556053f6105

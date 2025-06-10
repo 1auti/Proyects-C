@@ -38,7 +38,6 @@ AdjNode* crearAdjNode(int vertice, int peso);
 void destruirGraph(Graph * graph);
 
 // Funciones para lista adyacencias
-void addEdgeList(Graph * graph, int raiz, int dest, int peso);
 void removeEdgeList(Graph * graph, int raiz, int dest);
 void printEdgeList(Graph * graph);
 
@@ -52,6 +51,10 @@ void DFS(Graph * graph, int initVertice);
 void BFS(Graph * graph, int initVertice);
 void DFSUtil(Graph * graph, int vertice, bool visitado[]);
 
+bool addVertex(Graph* graph, int vertex);
+// Función para verificar si existe una arista
+bool hasEdge(Graph* graph, int from, int to);
+bool addEdgeList(Graph* graph, int src, int dest, int weight);
 //ALgoritmos avanzados
  //kruskal
  //bellman_ford
