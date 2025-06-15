@@ -1,0 +1,3 @@
+/home/administrador/CLionProjects/sondeo_lineal/cmake-build-debug/CMakeFiles/sondeo_lineal.dir
+/home/administrador/CLionProjects/sondeo_lineal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/administrador/CLionProjects/sondeo_lineal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
